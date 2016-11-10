@@ -1,0 +1,132 @@
+#!/bin/sh
+
+echo "converting stages..."
+sh geo2rax r022.geo allinone
+sh geo2rax r173.geo allinone
+sh geo2rax r314.geo allinone
+sh geo2rax r382.geo allinone
+sh geo2rax r512.geo allinone
+sh geo2rax r615.geo allinone
+sh geo2rax r646.geo allinone
+sh geo2rax r711.geo allinone
+sh geo2rax r715.geo allinone
+sh geo2rax r784.geo allinone
+sh geo2rax r790.geo allinone
+
+echo "converting fighters..."
+sh geo2rax r003.geo allinone fighter
+sh geo2rax r004.geo allinone fighter
+sh geo2rax r005.geo allinone fighter
+sh geo2rax r006.geo allinone fighter
+sh geo2rax r007.geo allinone fighter
+sh geo2rax r008.geo allinone fighter
+sh geo2rax r009.geo allinone fighter
+sh geo2rax r010.geo allinone fighter
+sh geo2rax r011.geo allinone fighter
+sh geo2rax r012.geo allinone fighter
+sh geo2rax r013.geo allinone fighter
+sh geo2rax r014.geo allinone fighter
+sh geo2rax r015.geo allinone fighter
+sh geo2rax r016.geo allinone fighter
+sh geo2rax r017.geo allinone fighter
+sh geo2rax r019.geo allinone fighter
+sh geo2rax r020.geo allinone fighter
+sh geo2rax r713.geo allinone fighter
+sh geo2rax r714.geo allinone fighter
+sh geo2rax r725.geo allinone fighter
+sh geo2rax r727.geo allinone fighter
+sh geo2rax r728.geo allinone fighter
+sh geo2rax r730.geo allinone fighter
+sh geo2rax r731.geo allinone fighter
+sh geo2rax r733.geo allinone fighter
+sh geo2rax r734.geo allinone fighter
+sh geo2rax r736.geo allinone fighter
+sh geo2rax r737.geo allinone fighter
+sh geo2rax r739.geo allinone fighter
+sh geo2rax r741.geo allinone fighter
+sh geo2rax r742.geo allinone fighter
+sh geo2rax r744.geo allinone fighter
+sh geo2rax r745.geo allinone fighter
+sh geo2rax r747.geo allinone fighter
+sh geo2rax r748.geo allinone fighter
+sh geo2rax r750.geo allinone fighter
+sh geo2rax r752.geo allinone fighter
+sh geo2rax r754.geo allinone fighter
+sh geo2rax r755.geo allinone fighter
+sh geo2rax r759.geo allinone fighter
+sh geo2rax r761.geo allinone fighter
+sh geo2rax r762.geo allinone fighter
+sh geo2rax r764.geo allinone fighter
+sh geo2rax r765.geo allinone fighter
+sh geo2rax r787.geo allinone fighter
+
+echo "converting misc. objects..."
+sh geo2rax r510.geo allinone tubes big
+sh geo2rax r550.geo allinone
+sh geo2rax r720.geo allinone
+sh geo2rax r709.geo allinone misc big
+sh geo2rax r722.geo allinone blood
+sh geo2rax r723.geo allinone
+sh geo2rax r785.geo allinone select_screen
+sh geo2rax r786.geo allinone
+sh geo2rax r788.geo allinone text big
+sh geo2rax r792.geo allinone blood
+sh geo2rax r796.geo allinone hand_from_hell
+sh geo2rax r798.geo allinone dragon big
+sh geo2rax r018.geo
+sh geo2rax r021.geo
+sh geo2rax r023.geo
+sh geo2rax r090.geo
+sh geo2rax r511.geo
+sh geo2rax r579.geo
+sh geo2rax r710.geo
+sh geo2rax r712.geo
+sh geo2rax r716.geo
+sh geo2rax r718.geo
+sh geo2rax r719.geo
+sh geo2rax r721.geo
+sh geo2rax r724.geo
+sh geo2rax r726.geo
+sh geo2rax r729.geo
+sh geo2rax r732.geo
+sh geo2rax r735.geo
+sh geo2rax r738.geo
+sh geo2rax r740.geo
+sh geo2rax r743.geo
+sh geo2rax r746.geo
+sh geo2rax r749.geo
+sh geo2rax r751.geo
+sh geo2rax r753.geo
+sh geo2rax r756.geo
+sh geo2rax r757.geo
+sh geo2rax r758.geo
+sh geo2rax r760.geo
+sh geo2rax r763.geo
+sh geo2rax r766.geo
+sh geo2rax r767.geo
+sh geo2rax r768.geo
+sh geo2rax r769.geo
+sh geo2rax r770.geo
+sh geo2rax r771.geo
+sh geo2rax r772.geo
+sh geo2rax r773.geo
+sh geo2rax r774.geo
+sh geo2rax r775.geo
+sh geo2rax r776.geo
+sh geo2rax r777.geo
+sh geo2rax r778.geo
+sh geo2rax r779.geo
+sh geo2rax r780.geo
+sh geo2rax r781.geo
+sh geo2rax r782.geo
+sh geo2rax r783.geo
+sh geo2rax r789.geo
+sh geo2rax r793.geo
+sh geo2rax r794.geo
+sh geo2rax r795.geo
+sh geo2rax r797.geo
+sh geo2rax r799.geo
+
+mv raw/r718*.rax "view/weapons"
+mv raw/r719*.rax "view/weapons"
+mv raw/*.rax "view"

@@ -1,0 +1,10 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\GT Interactive]
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\GT Interactive\Mortal Kombat 4]
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\GT Interactive\Mortal Kombat 4\1.00]
+"Path"="."
+"Setup"=".\\Setup.exe"
+"Config"="."

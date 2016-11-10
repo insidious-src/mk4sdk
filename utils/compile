@@ -1,0 +1,11 @@
+#!/bin/sh
+
+MK4SLOG="mk4s_compile_output.log"
+
+wine mk4s compile &> "$MK4SLOG" &&
+echo "filesys.dat successfully compiled"
+
+mv -f filesys.dat filesys.dat.bak &&
+echo "the old one renamed to filesys.dat.bak"
+
+mv filesys.new filesys.dat

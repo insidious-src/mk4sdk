@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sh gfx2bmp-all
+sh geo2rax-all

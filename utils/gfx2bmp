@@ -1,0 +1,11 @@
+#!/bin/sh
+
+cd raw
+
+if [[ "$1" != "" ]]; then
+    wine ../mk4s gfx2bmp "$1" $2
+else
+    echo The usage is: gfx2bmp fname.gfx [noview]
+fi
+
+cd ..

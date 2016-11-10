@@ -1,0 +1,11 @@
+#!/bin/sh
+
+cd view
+
+if [[ "$1" != "" ]]; then
+    wine ../mk4s bmp2gfx "$1"
+else
+    echo "Usage: bmp2gfx fname.bmp"
+fi
+
+cd ..

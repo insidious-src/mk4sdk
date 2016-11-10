@@ -1,0 +1,11 @@
+#!/bin/sh
+
+cd raw
+
+if [[ "$1" != "" ]]; then
+    wine ../fnd-obj "$1" $2 $3
+else
+    echo "Usage: geo2rax fname.geo"
+fi
+
+cd ..
