@@ -12,9 +12,15 @@ find_package(MK4Strip   REQUIRED)
 find_package(Alter3D    REQUIRED)
 find_package(MK4Toolkit REQUIRED)
 
-include(cmake/CompilerConfig.cmake  REQUIRED)
+include(cmake/CompilerConfig.cmake REQUIRED)
 include_directories(include)
-add_subdirectory(src/mk4tr)
+
+add_library (mk4sdk MODULE
+    include/mk4sdk/decl.h
+    include/mk4sdk/types.h
+    include/mk4sdk/dom.h
+    src/mk4sdk/dom.cpp
+    )
 
 add_executable (transp
     include/mk4sdk/decl.h
@@ -25,9 +31,20 @@ add_executable (transp
     )
 
 add_executable (asefix
+    include/asefix/hra.h
+    include/asefix/ase.h
+    src/asefix/hra.cpp
+    src/asefix/ase.cpp
     src/asefix/main.cpp
     )
 
 add_executable (injection
+    include/injection/json.h
+    include/injection/hex.h
+    src/injection/json.cpp
+    src/injection/hex.cpp
     src/injection/main.cpp
     )
+
+# add sub-project to compile
+add_subdirectory(src/mk4tr)

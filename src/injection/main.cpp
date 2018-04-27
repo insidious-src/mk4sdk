@@ -3,13 +3,9 @@
 
 using namespace std;
 
-class HexJSON
-{
-};
-
 int main (int argc, char* argv[])
 {
-    if (argc == 3)
+    if (argc == 4)
     {
     }
     else
@@ -22,15 +18,15 @@ int main (int argc, char* argv[])
     ifstream json_file (argv[3]);
     ofstream dst_file  (argv[2]);
 
-    if (!json_file.is_open ())
+    if (!json_file.good ())
     {
-        cerr << "Cannot read file " << argv[1] << endl;
+        cerr << "Cannot read from file " << argv[1] << endl;
         return 2;
     }
 
-    if (!src_file.is_open ())
+    if (!src_file.good ())
     {
-        cerr << "Cannot read file " << argv[2] << endl;
+        cerr << "Cannot read from file " << argv[2] << endl;
         return 3;
     }
 

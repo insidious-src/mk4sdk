@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MK4SDK"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\src\;CMake Files\src\mk4tr\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Alter3D::stripe3d">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 Alter3D::stripe3d"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MK4Strip::Geometry">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 MK4Strip::Geometry"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Alter3D::ase23d">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 Alter3D::ase23d"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Alter3D::stripe">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 Alter3D::stripe"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MK4STRIP::Core">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 MK4STRIP::Core"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="injection">
+				<Option output="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/injection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/backward"/>
+					<Add directory="/usr/bin/../lib/clang/3.9.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 injection"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="injection/fast">
+				<Option output="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/injection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/backward"/>
+					<Add directory="/usr/bin/../lib/clang/3.9.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 injection/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mk4sdk">
+				<Option output="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/libmk4sdk.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/backward"/>
+					<Add directory="/usr/bin/../lib/clang/3.9.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 mk4sdk"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mk4sdk/fast">
+				<Option output="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/libmk4sdk.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/backward"/>
+					<Add directory="/usr/bin/../lib/clang/3.9.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 mk4sdk/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="transp">
+				<Option output="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/transp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/backward"/>
+					<Add directory="/usr/bin/../lib/clang/3.9.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 transp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="transp/fast">
+				<Option output="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/transp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/backward"/>
+					<Add directory="/usr/bin/../lib/clang/3.9.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 transp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="asefix">
+				<Option output="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/asefix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/backward"/>
+					<Add directory="/usr/bin/../lib/clang/3.9.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 asefix"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="asefix/fast">
+				<Option output="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/asefix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/6.2.1/../../../../include/c++/6.2.1/backward"/>
+					<Add directory="/usr/bin/../lib/clang/3.9.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 asefix/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mk4">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/src/mk4tr"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 mk4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="filesys">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/src/mk4tr"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 filesys"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scorpion">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/src/mk4tr"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 scorpion"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kitana">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/src/mk4tr"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 kitana"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reiko">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/src/mk4tr"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 reiko"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tanya">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/src/mk4tr"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 tanya"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="goro">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/src/mk4tr"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 goro"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game.json">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/src/mk4tr"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 game.json"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kano">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/src/mk4tr"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 kano"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sonya">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/src/mk4tr"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 sonya"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="noob_saibot">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/src/mk4tr"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 noob_saibot"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reptile">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/src/mk4tr"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 reptile"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="subzero">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/src/mk4tr"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 subzero"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quan_chi">
+				<Option working_dir="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/bin/src/mk4tr"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 quan_chi"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/storage/Development/Resources/Games/Mortal\ Kombat\ The\ Revenge/mk4sdk/bin/src/mk4tr/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/include/asefix/ase.h">
+			<Option target="asefix"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/include/asefix/hra.h">
+			<Option target="asefix"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/include/injection/hex.h">
+			<Option target="injection"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/include/injection/json.h">
+			<Option target="injection"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/include/mk4sdk/decl.h">
+			<Option target="mk4sdk"/>
+			<Option target="transp"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/include/mk4sdk/dom.h">
+			<Option target="mk4sdk"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/include/mk4sdk/types.h">
+			<Option target="mk4sdk"/>
+			<Option target="transp"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/include/transp/bmp.h">
+			<Option target="transp"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/src/asefix/ase.cpp">
+			<Option target="asefix"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/src/asefix/hra.cpp">
+			<Option target="asefix"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/src/asefix/main.cpp">
+			<Option target="asefix"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/src/injection/hex.cpp">
+			<Option target="injection"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/src/injection/json.cpp">
+			<Option target="injection"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/src/injection/main.cpp">
+			<Option target="injection"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/src/mk4sdk/dom.cpp">
+			<Option target="mk4sdk"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/src/transp/bmp.cpp">
+			<Option target="transp"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/src/transp/main.cpp">
+			<Option target="transp"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/cmake/FindSysUtils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/cmake/FindMK4Strip.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/cmake/FindAlter3D.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/cmake/FindMK4Toolkit.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/cmake/CompilerConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/src/mk4tr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\mk4tr\"/>
+		</Unit>
+		<Unit filename="/media/storage/Development/Resources/Games/Mortal Kombat The Revenge/mk4sdk/src/mk4tr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\mk4tr\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

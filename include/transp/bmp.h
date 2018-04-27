@@ -37,9 +37,40 @@ namespace MK4SDK {
 
 // ===============================================
 
-class Bitmap : public std::fstream
+union RGB
+{
+    typedef enum { Red, Green, Blue, Count } Index;
+    typedef std::size_t                      size_type;
+
+    byte idx[Count];
+    byte red, green, blue;
+
+    RGB () = default;
+
+    // right to left in binary mode
+    constexpr RGB binary () const noexcept
+    { return { idx[Blue], idx[Green], idx[Red] }; }
+
+    constexpr bool operator == (RGB const& obj) const noexcept
+    { return red == obj.red && green == obj.green && blue == obj.blue; }
+
+    constexpr byte const& operator [] (size_type i) const noexcept
+    { return idx[i]; }
+
+    constexpr RGB (byte r, byte g, byte b) noexcept : idx { r, g, b } { }
+    byte& operator [] (size_type i) noexcept { return idx[i]; }
+};
+
+// ===============================================
+
+class BitmapStream : public std::fstream
 {
 public:
+    typedef std::size_t            size_type;
+    typedef std::streamsize        streamsize;
+    typedef std::unique_ptr<RGB[]> pointer_type;
+    using   base                 = std::fstream;
+
     enum class Type : u16
     {
         BM = 0x4D42, // Windows 3.1x, 95, NT, ... etc.
@@ -52,7 +83,7 @@ public:
 
     enum class Compression : u32
     {
-        BI_RGB = 0,
+        BI_RGB,
         BI_RLE8, // RLE 8-bit/pixel Can be used only with 8-bit/pixel bitmaps
         BI_RLE4, // RLE 4-bit/pixel Can be used only with 4-bit/pixel bitmaps
         BI_BITFIELDS, // OS22XBITMAPHEADER  : Huffman 1D
@@ -66,18 +97,6 @@ public:
         BI_CMYK = 11, // only Windows Metafile CMYK
         BI_CMYKRLE8,  // RLE-8 only Windows Metafile CMYK
         BI_CMYKRLE4   // RLE-4 only Windows Metafile CMYK
-    };
-
-    struct RGB
-    {
-        byte red, green, blue;
-
-        // right to left in binary mode
-        constexpr RGB binary () const noexcept
-        { return { blue, green, red }; }
-
-        constexpr bool operator == (RGB const& obj) const noexcept
-        { return red == obj.red && green == obj.green && blue == obj.blue; }
     };
 
     struct Header  // -- must be 14 bytes --
@@ -100,26 +119,27 @@ public:
         u32         colors; // number of colors -> 4 bytes
         u32         importantColors; // important colors -> 4 bytes
 
-        constexpr u32 pixel_count () const noexcept
-        { return static_cast<u32> (width * height); }
+        constexpr u32 absolute_width  () const noexcept
+        { return static_cast<u32> (width);  }
 
-        constexpr std::size_t pixel_data_size () const noexcept
-        { return pixel_row_size () * static_cast<std::size_t> (height); }
+        constexpr u32 absolute_height () const noexcept
+        { return static_cast<u32> (height); }
 
-        constexpr std::size_t pixel_row_size  () const noexcept
+        constexpr size_type pixel_count () const noexcept
+        { return static_cast<size_type> (width * height); }
+
+        constexpr size_type image_size_calc () const noexcept
+        { return row_size_calc () * absolute_height (); }
+
+        constexpr size_type row_size_calc   () const noexcept
         {
-            return ((sizeof (RGB) * 8 * static_cast<std::size_t> (width) + 31)
-                    / 32) * 4;
+            return (sizeof (RGB) * 8 * static_cast<size_type> (width) + 31)
+                    / 8;
         }
     };
 
-    typedef std::size_t            size_type;
-    typedef std::size_t const      const_size;
-    typedef std::streamsize        streamsize;
-    typedef std::unique_ptr<RGB[]> pointer_type;
-
-    Bitmap (const char* path, bool create = false)
-    : std::fstream (path, in | out | binary),
+    BitmapStream (const char* path, bool create = false)
+    : base (path, in | out | binary),
       m_infoHeader { },
       m_header     { }
     {
@@ -128,17 +148,17 @@ public:
     }
 
 
-    inline Bitmap& operator = (Bitmap& obj)
+    inline BitmapStream& operator = (BitmapStream& obj)
     {
         if (this != &obj)
         {
             off_type tmp_off = obj.tellg ();
 
-            reset_seek    ( );
-            obj.seekg     (0);
-            std::fstream::operator << (obj.rdbuf ());
-            obj.seekg     (tmp_off);
-            _parse_header ( );
+            reset_seek        ( );
+            obj.seekg         (0);
+            base::operator << (obj.rdbuf ());
+            obj.seekg         (tmp_off     );
+            _parse_header     ( );
         }
 
         return *this;
@@ -150,7 +170,7 @@ public:
                header ().offset                      >=
                sizeof (Header) + sizeof (InfoHeader) &&
                header ().filesize - header ().offset ==
-               info   ().pixel_data_size   ();
+               info   ().image_size_calc   ();
     }
 
     void reset_seek ()
@@ -163,7 +183,7 @@ public:
     InfoHeader const& info   () const noexcept { return m_infoHeader; }
 
     size_type replace (RGB const target_color, RGB const new_color);
-    Bitmap            () = delete;
+    BitmapStream      () = delete;
 
 private:
     void _parse_header ();
@@ -175,9 +195,9 @@ private:
 
 // ===============================================
 
-static_assert (sizeof (Bitmap::RGB       ) ==  3, "RGB is not 24-bit!");
-static_assert (sizeof (Bitmap::Header    ) == 14, "Header must be 14 bytes!");
-static_assert (sizeof (Bitmap::InfoHeader) == 40, "InfoHeader must be 40 bytes!");
+static_assert (sizeof (RGB                     ) ==  3, "RGB is not 24-bit!"          );
+static_assert (sizeof (BitmapStream::Header    ) == 14, "Header must be 14 bytes!"    );
+static_assert (sizeof (BitmapStream::InfoHeader) == 40, "InfoHeader must be 40 bytes!");
 
 } // namespace MK4SDK
 

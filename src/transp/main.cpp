@@ -32,11 +32,11 @@ int main (int argc, char* argv[])
         return 1;
     }
 
-    MK4SDK::Bitmap src_file (argv[1]);
+    MK4SDK::BitmapStream src_file (argv[1]);
 
     if (!src_file.good ())
     {
-        cerr << "cannot read from file " << argv[1] << endl;
+        cerr << "Cannot read from file " << argv[1] << endl;
         return 2;
     }
 
@@ -46,11 +46,11 @@ int main (int argc, char* argv[])
         return 3;
     }
 
-    MK4SDK::Bitmap dst_file (argv[2], true);
+    MK4SDK::BitmapStream dst_file (argv[2], true);
 
     if (!dst_file.good ())
     {
-        cerr << "cannot write to file " << argv[2] << endl;
+        cerr << "Cannot write to file " << argv[2] << endl;
         return 4;
     }
 

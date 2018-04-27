@@ -8,7 +8,7 @@
 - 3d models  - using alter3d + asefix
 - sounds     - using mk4strip & automated audio converter
 - game logic - using hex injection tool + a hex map for the known offsets
-- installer  - using windows installer
+- installer  - using NSIS
 
 ###asefix
 >A little tool for **.ase 3d models audit**,
@@ -28,7 +28,7 @@ The creator of mk4strip presented _very little information_ about the correct wa
 >It **automates** everything with the help of a few **configuration files**.
 >If something is missing or not used the propper way while building your modification, you will be informed with a meaningful explanation and pointed in the right direction.
 
-#Technical Details
+#Verified Technical Details
 ---
 |              | Convertible Assets         | filesys.dat                     |
 |--------------|----------------------------|---------------------------------|

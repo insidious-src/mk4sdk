@@ -23,45 +23,43 @@
 
 namespace MK4SDK {
 
-void Bitmap::_parse_header ()
+void BitmapStream::_parse_header ()
 {
     seekg (0, end);
-    if (static_cast<size_t>(tellg ()) <=
-        sizeof (Header) + sizeof (InfoHeader) - 1)
+    if (static_cast<size_type> (tellg ()) <=
+                       sizeof  (Header  ) + sizeof (InfoHeader) - 1)
         return;
 
     seekg (0);
-
-    read (reinterpret_cast<char_type*> (&m_header),
-          sizeof (Header));
+    read  (reinterpret_cast<char_type*> (&m_header),
+                                sizeof  (Header   ));
 
     if (header ().type == Type::BM)
         read (reinterpret_cast<char_type*> (&m_infoHeader),
-              sizeof (InfoHeader));
+                                   sizeof  (InfoHeader   ));
     else
         close ();
 }
 
-Bitmap::size_type Bitmap::replace (RGB const target_clr, RGB const new_clr)
+BitmapStream::size_type
+BitmapStream::replace (RGB const target_clr, RGB const new_clr)
 {
     pointer_type pixel_data      (new RGB[info ().pixel_count ()]);
-    size_type    num_changes    = 0;
-    auto         bin_target_clr = target_clr.binary      ();
-    auto         bin_new_clr    = new_clr   .binary      ();
+    auto         num_changes    = size_type    ();
     auto         buffer_size    = info  ()  .pixel_count () * sizeof (RGB);
     auto         prev_seekg     = tellg ();
+    auto         bin_target_clr = target_clr.binary      ();
+    auto         bin_new_clr    = new_clr   .binary      ();
 
     seekg (header ().offset);
     read  (reinterpret_cast<char_type*> (pixel_data.get ()),
                 static_cast<streamsize> (buffer_size));
 
-    for (auto row_idx = 0; row_idx < info ().height; ++row_idx)
+    for (u32 row_idx = 0; row_idx < info ().absolute_height (); ++row_idx)
     {
-        for (auto cell_idx = 0; cell_idx < info ().width; ++cell_idx)
+        for (u32 cell_idx = 0; cell_idx < info ().absolute_width (); ++cell_idx)
         {
-            auto array_idx = static_cast<size_type> (info ().width *
-                                                     row_idx       +
-                                                     cell_idx);
+            auto array_idx = info ().absolute_width () * row_idx + cell_idx;
 
             if (pixel_data[array_idx] == bin_target_clr)
             {

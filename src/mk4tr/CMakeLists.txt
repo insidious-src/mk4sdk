@@ -1,4 +1,37 @@
+cmake_minimum_required(VERSION 2.8)
+
+project("MK4TR")
+
+set(MK4SDK_VERSION_MAJOR 2)
+set(MK4SDK_VERSION_MINOR 0)
+set(MK4SDK_VERSION ${MK4SDK_VERSION_MAJOR}.${MK4SDK_VERSION_MINOR})
+
 ## assets
+
+add_custom_target(goro ASSET
+    # primary skin
+    )
+
+add_custom_target(kano ASSET
+    # primary skin
+    )
+
+add_custom_target(kitana ASSET
+    # primary skin
+    )
+
+add_custom_target(reptile ASSET
+    # primary skin
+    )
+
+add_custom_target(reiko ASSET
+    # primary skin
+    # shao kahn skin
+    )
+
+add_custom_target(sonya ASSET
+    # primary skin
+    )
 
 add_custom_target(noob_saibot ASSET
     # primary skin
@@ -42,6 +75,12 @@ add_custom_target(filesys DATAFILE
     #subzero
     #quan_chi
     #scorpion
+    #goro
+    #reiko
+    #sonya
+    #kano
+    #kitana
+    #reptile
     )
 
 add_custom_target(game.json HEX
